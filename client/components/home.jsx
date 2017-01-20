@@ -23,6 +23,7 @@ class Home extends React.Component {
     return (
       <div>
         <h1>Hello <a href={"https://github.com/electrode-io"}>{"Electrode"}</a></h1>
+        <h2>Kemosabe7</h2>
         <div> <p>Our beloved friends</p></div>
         <div className="images">
           {imageUrls.map((imageUrl, index) => this.renderImage(imageUrl, index))}
